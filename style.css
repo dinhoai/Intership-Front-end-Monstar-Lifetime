@@ -1,0 +1,142 @@
+*{margin: 0;padding: 0;}
+body{
+	background-color: #cad3d3;
+}
+.container{
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	font-family: 'Source Sans Pro:300', sans-serif;
+}
+img {
+	width: 350px;
+}
+
+.container>div{
+	margin: 20px;
+	width : 350px;
+	background-color:  white;
+}   
+ul li{
+	list-style-type: none;
+}
+.subtile1{
+	background-color:  white;
+	padding: 10px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #7b8a94;
+}
+h3{margin:0;
+	color: #7b8a94;
+	font-weight: 400;
+}
+.subtile2{
+	background-color: #f4f6f7;
+	padding: 10px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #7b8a94;
+}
+.container-image{position: relative;
+}
+.price-image{
+	width : 120px;
+	height : 120px;
+	position: absolute; top :0; left : 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 120px;
+	background-color: white;
+}
+.price-image2{
+	width : 120px;
+	height : 120px;
+	position: absolute; top :0; left : 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 120px;
+	background-color: #2c2e3d;
+}
+.item-new{
+	position: absolute;
+	background-image:url("new.png");
+	width : 70px;
+	height: 70px;
+	top:-5%;
+	left:-5%;
+	border: 1px solid #ccc;
+}
+.title-new{
+	padding-top: 40%;
+}
+.label{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+#price1{
+	font-size: 30px;
+	color : #3c9ef8;
+}
+#price1~span{
+	color: #bfc8cf;
+}
+#price2{
+	font-size: 30px;
+	color : #973a73;
+}
+#price2~span{color:#bfc8cf;}
+.big-title{
+	position: absolute;
+	top : 50%; left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	font-weight: 300;
+	color: #f5f6f7;
+	line-height: 25px;
+}
+.big-title>span{font-size:13px;}
+.btn1{
+	display: inline-block;
+	text-align: center;
+	margin: 40px auto;
+	padding: 10px 30px;
+	border: 2px solid #2196f7;
+	color : #2196f7;
+
+}
+.btn2{
+	display: inline-block;
+	text-align: center;
+	margin: 40px auto;
+	padding: 10px 30px;
+	border: 2px solid #6c136f;
+	color : #6c136f;
+}
+.btn3{
+	display: inline-block;
+	text-align: center;	
+	margin: 40px auto;
+	padding: 10px 30px;
+	border: 2px solid #32ad1e;
+	color : #32ad1e;
+}
+.btn1:hover{
+	background-color: #2196f7;
+	color: white;
+	cursor: pointer;
+	border: none;
+}
+.btn2:hover{
+	background-color: #6c136f;
+	color: white;
+	cursor: pointer;
+	border: none;
+}
+.btn3:hover{
+	background-color: #32ad1e;
+	color: white;
+	cursor: pointer;
+	border: none;
+}
